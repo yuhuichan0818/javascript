@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="email.css" />
+    <script src="email.js" defer></script>
+  </head>
+  <body>
+    <div class="form">
+      <h3>로그인</h3>
+      <div>
+        <span>이메일</span>
+        <div><input id="email" type="text" /></div>
+        <span id="email_warn" class="noShow">골뱅이가 없어요</span>
+      </div>
+      <div>
+        <span>비밀번호</span>
+        <div><input id="password" type="text" /></div>
+        <span id="password_warn" class="noShow">8자 이상이어야 해요</span>
+      </div>
+      <div>
+        <div>
+          <input id="check" type="checkbox" /> <span>약관에 동의합니다.</span>
+        </div>
+        <span id="check_warn" class="noShow">약관에 동의해 주세요</span>
+      </div>
+      <div id="login" class="login">로그인</div>
+    </div>
+  </body>
+</html>

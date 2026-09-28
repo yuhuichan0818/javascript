@@ -1,0 +1,11 @@
+header {
+  max-width: 100vw;
+  width: 100%;
+  flex: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+body {
+  width: 100%;
+  height: 200px;
+}

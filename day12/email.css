@@ -1,0 +1,21 @@
+.form {
+  width: fit-content;
+  padding: 20px;
+  border: 1px solid #efefef;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.noShow {
+  display: none;
+}
+
+.login {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}

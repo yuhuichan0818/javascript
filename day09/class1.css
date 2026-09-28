@@ -1,0 +1,27 @@
+.timetable {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  border: 1px solid red;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: row;
+}
+
+.day {
+  border: 1px solid white;
+  flex: 3;
+  padding: 20px;
+}
+
+.time {
+  border: 1px solid white;
+  flex: 7;
+  padding: 20px;
+}
+
+.today {
+  border-left: 4px solid red;
+}

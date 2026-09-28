@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="input.css" />
+    <script src="input.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <p>자기 소개</p>
+      <input style="width: 300px; height: 200px" id="input" type="text" />
+      <span id="letters"></span>
+    </div>
+
+    <div>
+      <p>ID</p>
+      <input id="id" type="text" />
+      <p class="noShow" id="id_accept">골뱅이가 없어요</p>
+    </div>
+    <div>
+      <p>비밀 번호</p>
+      <input id="pw" type="password" />
+      <button id="pw_show">보기</button>
+      <p class="noShow" id="pw_accept">8자 이상이어야 해요</p>
+    </div>
+    <div style="margin-top: 20px">
+      <input id="checkbox" type="checkbox" />
+      <span>약관에 동의합니다</span>
+      <p class="noShow" id="check_accept">약관에 동의해 주세요</p>
+    </div>
+    <div>
+      <button id="login" style="margin-top: 20px">로그인</button>
+    </div>
+  </body>
+</html>

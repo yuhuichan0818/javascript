@@ -1,0 +1,25 @@
+header {
+  width: 400px;
+  height: 40px;
+  border-bottom: 1px solid black;
+}
+
+button {
+  width: fit-content;
+  padding: 4px 12px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.show {
+  display: block;
+}
+
+.noShow {
+  display: none;
+}
+
+button:hover {
+  background-color: red;
+}
